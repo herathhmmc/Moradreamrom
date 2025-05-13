@@ -1,0 +1,241 @@
+
+<html lang="en">
+    <title>DreamRoam</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
+        
+        
+        <script src="jstyle.js" defer></script>
+        </head>
+        <body>
+            
+            <button class="fixed-button">
+                <a href="#">
+                    <img src="Images/arrow.png" alt="topicon" width="50px">
+                </a>
+            </button>
+            <h1>DreamRoam</h1>
+        <header class="header">
+            
+            <a  class="logo"><img src="Images/logo.png" width="50px" height="50px"></a>
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">    
+                <img src="Images/ham.png" alt="ham" width="50px" id="menu-icon">
+                <img src="Images/x.png" alt="close" width="50px" id="close-icon">
+            </label>
+            <nav class="navbar">
+                <a href="#" style="--i:0;">Home</a>
+                <a href="#" style="--i:1;">Content</a>
+                <a href="#" style="--i:2;">Contact</a>
+            </nav>
+            
+            </header>
+            <section id="Home">
+    <h2>Welcome to DreamRoam</h2>
+    <button onclick="function1()" id="popupbutton">Watch This</button>
+
+<div id="videoPopup" class="hidden">
+    <video id="introvideo" controls class="videoclass">
+        <source src="Videos/intro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <button onclick="function2()" id="closebutton">Close</button>
+</div>
+    <div id="homecontainer">
+    <img id="homeimage"src="Images/homebackground.jpg" alt="Home Background" class="background">
+    <p id="hometoppara">Explore the most beautiful places in the world and plan your dream vacation.</br>
+    Our world is full of amazing and beautiful places that feel like they’re straight out of a dream. Imagine relaxing on the white beaches of the Maldives, or standing in front of the snowy mountains in Switzerland. Places like Japan during cherry blossom season or the colorful tulip fields in the Netherlands are just magical. Iceland’s waterfalls, Santorini’s blue and white houses, and the old city of Petra in Jordan are unforgettable sights. The Grand Canyon in the USA and the peaceful lakes of New Zealand also show just how wonderful nature can be. These ten places are some of the most beautiful spots on Earth that everyone should see at least once.
+    </p>
+</div>
+</section>
+
+<section id="10 Best Places">
+    <h2>Top 10 dream places you should visit!</h2>
+    <ol>
+        <li>
+            <div class="image-container">
+                <p class="titleclass">Paris, France</p>
+                <p class="imagepara">Paris is a city that captures hearts with its timeless beauty and romantic charm. From the Eiffel Tower and charming cafes to world-class museums like the Louvre, every corner of Paris feels magical. Whether you're strolling along the Seine or enjoying a croissant in Montmartre, the city's elegance is unforgettable.</p>
+                <img id="topimage" src="Images/paris.jpg" alt="Paris, France">
+            </div>
+        </li>
+        <li>
+            <div class="image-container">
+                <p class="titleclass">Kyoto, Japan</p>
+                <p class="imagepara">Kyoto is a city of ancient temples, stunning gardens, and traditional tea houses. Known for its cherry blossoms and vibrant autumn leaves, Kyoto offers a glimpse into Japan's rich cultural heritage.</p>
+                <img id="topimage" src="Images/kyoto.jpg" alt="Kyoto, Japan">
+            </div>
+        </li>
+        <li>
+            <div class="image-container">
+                <p class="titleclass">Maldives</p>
+                <p class="imagepara">The Maldives is a tropical paradise with crystal-clear waters, white sandy beaches, and luxurious overwater bungalows. It's the perfect destination for relaxation and underwater adventures.</p>
+                <img id="topimage" src="Images/maldives.jpg" alt="Maldives">
+            </div>
+        </li>
+        <li>
+            <div class="image-container">
+                <p class="titleclass">New York City, USA</p>
+                <p class="imagepara">New York City is a bustling metropolis known for its iconic landmarks like Times Square, Central Park, and the Statue of Liberty. It's a city that never sleeps, offering endless entertainment and cultural experiences.</p>
+                <img id="topimage" src="Images/nyc.jpg" alt="New York City, USA">
+            </div>
+        </li>
+        <li>
+            <div class="image-container">
+                <p class="titleclass">Venice, Italy</p>
+                <p class="imagepara">Venice is a unique city built on water, famous for its canals, gondolas, and historic architecture. It's a romantic destination that feels like stepping back in time.</p>
+                <img id="topimage" src="Images/venice.jpg" alt="Venice, Italy">
+            </div>
+        </li>
+        <li>
+            <div class="image-container">
+                <p class="titleclass">Barcelona, Spain</p>
+                <p class="imagepara">Barcelona is a vibrant city known for its stunning architecture by Antoni Gaudí, lively streets, and beautiful beaches. It's a perfect blend of culture, history, and modernity.</p>
+                <img id="topimage" src="Images/barcelona.jpg" alt="Barcelona, Spain">
+            </div>
+        </li>
+        <li>
+            <div class="image-container">
+                <p class="titleclass">Dubai, UAE</p>
+                <p class="imagepara">Dubai is a city of futuristic skyscrapers, luxury shopping, and desert adventures. It's a destination that combines modern innovation with traditional Arabian charm.</p>
+                <img id="topimage" src="Images/dubai.jpg" alt="Dubai, UAE">
+            </div>
+        </li>
+        <li>
+            <div class="image-container">
+                <p class="titleclass">Rome, Italy</p>
+                <p class="imagepara">Rome is a city steeped in history, home to ancient landmarks like the Colosseum, Roman Forum, and Vatican City. It's a must-visit for history and art enthusiasts.</p>
+                <img id="topimage" src="Images/rome.jpg" alt="Rome, Italy">
+            </div>
+        </li>
+        <li>
+            <div class="image-container">
+                <p class="titleclass">Bangkok, Thailand</p>
+                <p class="imagepara">Bangkok is a bustling city known for its ornate temples, vibrant street markets, and delicious Thai cuisine. It's a gateway to Thailand's rich culture and traditions.</p>
+                <img id="topimage" src="Images/bangkok.jpg" alt="Bangkok, Thailand">
+            </div>
+        </li>
+        <li>
+            <div class="image-container">
+                <p class="titleclass">Prague, Czech Republic</p>
+                <p class="imagepara">Prague is a fairy-tale city with its stunning castles, cobblestone streets, and historic bridges. It's a destination that feels like stepping into a storybook.</p>
+                <img id="topimage" src="Images/prague.jpg" alt="Prague, Czech Republic">
+            </div>
+        </li>
+    </ol>
+
+    <table id="tablemap">
+        <thead>
+            <tr>
+                <th>Place</th>
+                <th>Image</th>
+                <th>Map</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Paris, France</td>
+                <td><img src="Images/paris.jpg" alt="Paris, France" width="100px"></td>
+                <td><a href="https://goo.gl/maps/8J5v1z7z1z92" target="_blank">View Map</a></td>
+            </tr>
+            <tr>
+                <td>Kyoto, Japan</td>
+                <td><img src="Images/kyoto.jpg" alt="Kyoto, Japan" width="100px"></td>
+                <td><a href="https://goo.gl/maps/4U9z1z7z1z92" target="_blank">View Map</a></td>
+            </tr>
+            <tr>
+                <td>Maldives</td>
+                <td><img src="Images/maldives.jpg" alt="Maldives" width="100px"></td>
+                <td><a href="https://goo.gl/maps/5J5v1z7z1z92" target="_blank">View Map</a></td>
+            </tr>
+            <tr>
+                <td>New York City, USA</td>
+                <td><img src="Images/nyc.jpg" alt="New York City, USA" width="100px"></td>
+                <td><a href="https://goo.gl/maps/6J5v1z7z1z92" target="_blank">View Map</a></td>
+            </tr>
+            <tr>
+                <td>Venice, Italy</td>
+                <td><img src="Images/venice.jpg" alt="Venice, Italy" width="100px"></td>
+                <td><a href="https://goo.gl/maps/7J5v1z7z1z92" target="_blank">View Map</a></td>
+            </tr>
+            <tr>
+                <td>Barcelona, Spain</td>
+                <td><img src="Images/barcelona.jpg" alt="Barcelona, Spain" width="100px"></td>
+                <td><a href="https://goo.gl/maps/8J5v1z7z1z92" target="_blank">View Map</a></td>
+            </tr>
+            <tr>
+                <td>Dubai, UAE</td>
+                <td><img src="Images/dubai.jpg" alt="Dubai, UAE" width="100px"></td>
+                <td><a href="https://goo.gl/maps/9J5v1z7z1z92" target="_blank">View Map</a></td>
+            </tr>
+            <tr>
+                <td>Rome, Italy</td>
+                <td><img src="Images/rome.jpg" alt="Rome, Italy" width="100px"></td>
+                <td><a href="https://goo.gl/maps/1J5v1z7z1z92" target="_blank">View Map</a></td>
+            </tr>
+            <tr>
+                <td>Bangkok, Thailand</td>
+                <td><img src="Images/bangkok.jpg" alt="Bangkok, Thailand" width="100px"></td>
+                <td><a href="https://goo.gl/maps/2J5v1z7z1z92" target="_blank">View Map</a></td>
+            </tr>
+            <tr>
+                <td>Prague, Czech Republic</td>
+                <td><img src="Images/prague.jpg" alt="Prague, Czech Republic" width="100px"></td>
+                <td><a href="https://goo.gl/maps/3J5v1z7z1z92" target="_blank">View Map</a></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="Contact US">
+    <h2>Contact Us</h2>
+    <form action="/submit" method="post" id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+</section>
+<footer>
+    <div class="footer-container"></div>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About DreamRoam</h3>
+                <p>DreamRoam is your guide to exploring the most beautiful destinations around the world. Start planning your dream vacation today!</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#10 Best Places">Top Destinations</a></li>
+                    <li><a href="#Contact US">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="Images/facebook.png" alt="Facebook" width="40px" height="40px"></a>
+                    <a href="#"><img src="Images/twitter.png" alt="Twitter" width="40px" height="40px"></a>
+                    <a href="#"><img src="Images/instagram.png" alt="Instagram" width="40px" height="40px"></a>
+                    <a href="#"><img src="Images/linkedin.png" alt="LinkedIn" width="40px" height="40px"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 DreamRoam. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+        </body>
+    </html>
