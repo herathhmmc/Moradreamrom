@@ -224,17 +224,31 @@ height: 0;
 .hidden {
     display: none;
 }
-#introvideo{
+#introvideo {
     border-radius: 20px;
-    width: 900px;
+    width: 90%; /* Adjust width for responsiveness */
+    max-width: 900px; /* Maintain a maximum width */
     margin: 0 auto;
     display: block;
     z-index: 3;
     position: relative;
 }
-#introvideo:hover{
+
+#introvideo:hover {
     z-index: 1;
     position: relative;
+}
+
+@media (max-width: 768px) {
+    #introvideo {
+        width: 95%; /* Slightly smaller width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    #introvideo {
+        width: 100%; /* Full width for very small screens */
+    }
 }
 
 #homecontainer{
